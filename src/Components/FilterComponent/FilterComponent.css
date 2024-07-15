@@ -1,0 +1,8 @@
+.filterbox {
+  text-align: left;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+}

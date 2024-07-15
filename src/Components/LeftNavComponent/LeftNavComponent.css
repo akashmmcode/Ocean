@@ -1,0 +1,8 @@
+.leftnav_outerdiv {
+  background-color: #4cc9f0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-radius: 0px;
+}

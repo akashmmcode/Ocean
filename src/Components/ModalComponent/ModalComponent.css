@@ -1,0 +1,17 @@
+.parent-modal-title {
+  color: black;
+}
+
+.button_outer_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 10%;
+  margin-top: 5%;
+}
+
+.inputs_in_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

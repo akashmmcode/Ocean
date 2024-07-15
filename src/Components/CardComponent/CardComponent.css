@@ -1,0 +1,8 @@
+.card_outer_div {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 200px;
+}

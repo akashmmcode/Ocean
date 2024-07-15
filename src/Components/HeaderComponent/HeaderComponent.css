@@ -1,0 +1,6 @@
+.header {
+  height: 64px;
+  /* background-color: #adb5bd; */
+  width: 100vw;
+  background-image: url(../../assets/ocean.jpg);
+}
