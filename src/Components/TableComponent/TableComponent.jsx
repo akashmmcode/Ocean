@@ -16,7 +16,6 @@ export default function BasicTable() {
   const [taskList, setTaskList] = React.useContext(TaskDetailsContext);
 
   const removeTask = (desc, proj) => {
-    console.log(desc, proj);
     setTaskList((prev) =>
       prev.filter((item) => !(item.taskDesc == desc && item.project == proj))
     );
