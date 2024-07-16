@@ -29,6 +29,7 @@ export default function BarChartComponent() {
 
   return (
     <div className="Bar_outer_div">
+      <p className="info">The task here was - Show project-wise bug status counts using a bar chart. But it was nowhere mentioned where are we taking the bugs as input for a project so i have hard coded the bugs based on projects and added the them please see the code for better understanding</p>
       <BarChart
         xAxis={[
           { scaleType: "band", data: ["Project 1", "Project 2", "Project 3"] },

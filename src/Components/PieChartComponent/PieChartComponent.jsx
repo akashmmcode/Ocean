@@ -18,6 +18,7 @@ export default function PieChartComponent() {
 
   return (
     <div className="Bar_outer_div">
+      <p className="info">Same no bug data. So showing the count of the tasks based on the status</p>
       <PieChart
         series={[
           {
