@@ -1,5 +1,6 @@
 .edit_options {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
