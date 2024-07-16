@@ -29,14 +29,14 @@ export default function BasicTable() {
           <TableHead>
             <TableRow>
               <TableCell>ID</TableCell>
-              <TableCell align="right" className="row_heading">Task Description</TableCell>
-              <TableCell align="right" className="row_heading">Project</TableCell>
-              <TableCell align="right" className="row_heading">Progress</TableCell>
-              <TableCell align="right" className="row_heading">Status</TableCell>
-              <TableCell align="right" className="row_heading">Assignee</TableCell>
-              <TableCell align="right" className="row_heading">Due Date</TableCell>
-              <TableCell align="right" className="row_heading">Priority</TableCell>
-              <TableCell align="right" className="row_heading">Operations</TableCell>
+              <TableCell align="right">Task Description</TableCell>
+              <TableCell align="right">Project</TableCell>
+              <TableCell align="right">Progress</TableCell>
+              <TableCell align="right">Status</TableCell>
+              <TableCell align="right">Assignee</TableCell>
+              <TableCell align="right">Due Date</TableCell>
+              <TableCell align="right">Priority</TableCell>
+              <TableCell align="right">Operations</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -84,6 +84,7 @@ export default function BasicTable() {
                       marginTop: "8px",
                       marginRight: "8px",
                       marginLeft: "10px",
+                      backgroundColor: "black"
                     }}
                     className="buttons"
                   >
